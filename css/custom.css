@@ -1,0 +1,123 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+.navbar-brand {
+  font-family: 'Arvo', courier, serif;
+  font-size: 2em;
+  padding-top: 22px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+ul#nav-two > li > a {
+  color: #c6b0d0;
+}
+ul#nav-two {
+  padding-top: 8px;
+}
+ul.nav {
+  font-weight: bold;
+  font-size: 18px;
+  color: red;
+}
+
+.btn-lg {
+  font-size: 24px;
+}
+
+.jumbotron {
+  font-family: 'Arvo', courier, serif;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  background-image: url('../images/logoo.png');
+  background-size: cover;
+}
+
+.jumbotron p {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.jumbotron h1 {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #453446;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+footer .right-foot li{
+  list-style: none;
+  float: right;
+  margin-left: 20px;
+  font-size: 20px;
+}
+footer .right-foot > li > a {
+  color: #7f8672;
+}
+footer .left-foot li{
+  list-style: none;
+  float: left;
+  margin-right: 15px;
+}
+footer #copyright{
+  padding-top: 40px;
+  color: gray;
+}
+
+
+
+#updates {
+  background-color: #f5f5f5;
+  text-align: center;
+  font-family: 'Arvo', courier, serif;
+  padding-bottom: 60px;
+}
+
+.btn-danger {
+  font-size: 20px;
+}
+
+.homepage hr {
+  border-top: 1px solid#c47635;
+  width: 400px;
+  margin-top: 15px;
+  border-style: ridge;
+  border-width: 3px;
+}
+.homepage .col-md-4 p{
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.homepage .col-md-4 .fa {
+  font-size: 52px;
+}
